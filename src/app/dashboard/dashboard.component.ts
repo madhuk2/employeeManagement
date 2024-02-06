@@ -30,7 +30,7 @@ export class DashboardComponent {
     .subscribe(data=>{
       this.employees=data
       //for showing the data on the console 
-      console.log(this.employees);
+      // console.log(this.employees);
       
     })
   }
